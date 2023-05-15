@@ -4,19 +4,16 @@
   "description": "A collection of homebrew features for the Hraefn PF2e campaign on Foundry VTT.",
   "authors": [
     {
-      "name": "Ashyaa"
+      "name": "Ashyaa",
+      "flags": {}
     }
   ],
   "url": "https://github.com/Ashyaa/pf2e-hraefn",
-  "version": "0.1",
+  "version": "1.0",
   "compatibility": {
     "minimum": "10.282",
     "verified": "10.282"
   },
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
   "packs": [
     {
       "label": "Hraefn Macros",
@@ -24,7 +21,17 @@
       "path": "/packs/hraefn-macros.db",
       "system": "pf2e",
       "private": false,
-      "type": "Macro"
+      "type": "Macro",
+      "flags": {}
+    },
+    {
+      "label": "Hraefn Effects",
+      "name": "hraefn-effects",
+      "path": "/packs/hraefn-effects.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
     },
     {
       "label": "Hraefn Rollable Tables",
@@ -32,27 +39,22 @@
       "path": "/packs/hraefn-rollable-tables.db",
       "system": "pf2e",
       "private": false,
-      "type": "RollTable"
+      "type": "RollTable",
+      "flags": {}
     }
   ],
   "relationships": {
-    "dependencies": [
-      {
-        "id": "pf2e",
-        "type": "system"
-      }
-    ],
     "systems": [
       {
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.11.1"
+          "minimum": "4.11.1",
+          "verified": "4.11.2"
         }
       }
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Ashyaa/pf2e-hraefn/master/module.json",
-  "download": "https://github.com/Ashyaa/pf2e-hraefn/archive/refs/heads/main.zip",
-  "protected": false
+  "download": "https://github.com/Ashyaa/pf2e-hraefn/archive/refs/heads/main.zip"
 }
