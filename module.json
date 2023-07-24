@@ -9,16 +9,16 @@
     }
   ],
   "url": "https://github.com/Ashyaa/pf2e-hraefn",
-  "version": "1.0",
+  "version": "1.1",
   "compatibility": {
-    "minimum": "10.282",
-    "verified": "10.282"
+    "minimum": "11.306",
+    "verified": "11.306"
   },
   "packs": [
     {
       "label": "Hraefn Macros",
       "name": "hraefn-macros",
-      "path": "/packs/hraefn-macros.db",
+      "path": "/packs/hraefn-macros",
       "system": "pf2e",
       "private": false,
       "type": "Macro",
@@ -27,7 +27,7 @@
     {
       "label": "Hraefn Effects",
       "name": "hraefn-effects",
-      "path": "/packs/hraefn-effects.db",
+      "path": "/packs/hraefn-effects",
       "system": "pf2e",
       "private": false,
       "type": "Item",
@@ -36,7 +36,7 @@
     {
       "label": "Hraefn Rollable Tables",
       "name": "hraefn-rollable-tables",
-      "path": "/packs/hraefn-rollable-tables.db",
+      "path": "/packs/hraefn-rollable-tables",
       "system": "pf2e",
       "private": false,
       "type": "RollTable",
@@ -49,8 +49,8 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.11.1",
-          "verified": "4.11.2"
+          "minimum": "5.2.1",
+          "verified": "5.2.1"
         }
       }
     ]
